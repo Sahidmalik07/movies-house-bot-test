@@ -603,6 +603,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "Hello":
+        await query.answer("Hello Bro", show_alert=True)
+        )
     elif query.data == "ytthumb":
         buttons = [[
             InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='help')
@@ -1042,5 +1045,3 @@ async def manual_filters(client, message, text=False):
     else:
         return False
 
-    elif query.data == "Hello":
-        await query.answer("Hello Bro", show_alert=True)
