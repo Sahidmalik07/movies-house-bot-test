@@ -859,6 +859,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     btn.insert(0, [
         InlineKeyboardButton('♻️ Join Our Group ♻️', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A'),
+        InlineKeyboardButton('♻️ 𝗦𝘁𝗮𝘁𝘀 ♻️', callback_data='stats')
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
