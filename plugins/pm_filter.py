@@ -1042,9 +1042,7 @@ async def manual_filters(client, message, text=False):
     else:
         return False
 
-@Client.on_callback_query(filters.regex(r"^malik"))
-async def next_page(bot, query):
-    ident, offset = query.data.split("_")
-    if int not in [query, 0]:
-        return await query.answer(f"⚠️ Hey, {query.from_user.first_name}.. \n\nSearch Your Own File, \n\n⚠️ Don't Click Others Results 😬", show_alert=True)
-
+    elif query.data.startswith("checksub"):
+        if AUTH_CHANNEL and not await is_subscribed(client, query):
+            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒...\n\n 😳 bro niche diye gye updates channel ko join karo  jab tak aap updates channel join nahi karte tab tak bot apko movie nahi dega! ", show_alert=True)
+            return
