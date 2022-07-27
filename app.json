@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/malik7983/file-filter-bot-new",
-    "repository": "https://github.com/malik7983/file-filter-bot-new",
+    "repository": "https://github.com/Sahidmalik07/movies-house-bot-test",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
