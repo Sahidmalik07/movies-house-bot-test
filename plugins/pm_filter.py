@@ -3,7 +3,6 @@ import asyncio
 import re
 import ast
 
-from plugins.malik.test import offset
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script, ALURT_FND, M_NT_FND, M_NNT_FND, M_NNT_FNDD
 import pyrogram
@@ -1042,3 +1041,10 @@ async def manual_filters(client, message, text=False):
                 break
     else:
         return False
+
+@Client.on_callback_query(filters.regex(r"^malik"))
+async def next_page(bot, query):
+    ident, req, key, b_offset = query.data.split("_")
+    if int(req) not in [query.from_user.id, 0]:
+        return await query.answer(f"⚠️ Hey, {query.from_user.first_name}.. \n\nSearch Your Own File, \n\n⚠️ Don't Click Others Results 😬", show_alert=True)
+
