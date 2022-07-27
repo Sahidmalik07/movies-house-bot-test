@@ -1,4 +1,5 @@
 #sahid malik
+import offset
 from pyrogram import Client, filters
 
 @Client.on_callback_query(filters.regex(r"^malik"))
