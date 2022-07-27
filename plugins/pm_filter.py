@@ -859,7 +859,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     btn.insert(0, [
         InlineKeyboardButton('♻️ Join Our Group ♻️', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A'),
-        InlineKeyboardButton("MALIK ⏩", callback_data=f"malik_{offset}")
+        InlineKeyboardButton("MALIK ⏩", callback_data=f"malik_{b_offset}")
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
@@ -1044,7 +1044,7 @@ async def manual_filters(client, message, text=False):
 
 @Client.on_callback_query(filters.regex(r"^malik"))
 async def next_page(bot, query):
-    ident, offset = query.data.split("_")
-    if int(req) not in [query, 0]:
+    ident, b_offset = query.data.split("_")
+    if int not in [query, 0]:
         return await query.answer(f"⚠️ Hey, {query.from_user.first_name}.. \n\nSearch Your Own File, \n\n⚠️ Don't Click Others Results 😬", show_alert=True)
 
