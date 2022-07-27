@@ -604,7 +604,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "Hello":
-        await query.answer("GROUP RULES \n☀️ Search With Correct Spelling.. \n☀️ Try to Search movie With  Year If The bot is Not Sending You Accurate Result..\n☀️ Search Series In The Given From Example : Gotham S03E01 And S03E10.. \n❌ Don't tipe Gotham Season 1 Episode 1\n☀️ Search Movies  in The Given From Example:    \n(1) Avengers.. ✅\n(2) Avengers Hindi. ✅\n(3) Avengers movie ❌\n(4) Don't Tipe Avengers Hindi Dubbed..❌\n\n☀️Don't Do Any Self Promotion.\n\n☀️ Don't Send Any Kind Of Photo Video Documents URL ETC.\n\n☀️ Sending The Above  Mantained Things Will Lead To Permanent Ban.\n\n☀️Don't Request Any Things Other Than Movie Series Animes.\n\n☀️ Give and Take Respect..", show_alert=True)
+        await query.answer("GROUP RULES \n☀️ Search With Correct Spelling.. \n☀️ Try to Search movie With  Year If The bot is Not Sending You Accurate Result..\n☀️ Search Series In The Given From Example : Gotham S03E01 And S03E10..\n\n☀️Don't Do Any Self Promotion.\n\n☀️ Don't Send Any Kind Of Photo Video Documents URL ETC.\n\n☀️ Sending The Above  Mantained Things Will Lead To Permanent Ban.\n\n☀️Don't Request Any Things Other Than Movie Series Animes.\n\n☀️ Give and Take Respect..", show_alert=True)
         return
     elif query.data == "ytthumb":
         buttons = [[
