@@ -900,20 +900,20 @@ async def auto_filter(client, msg, spoll=False):
     if imdb and imdb.get('poster'):
         try:
             mabb = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(20)
+            await asyncio.sleep(3000)
             await mabb.delete()
             await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             mbb = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await asyncio.sleep(20)
+            await asyncio.sleep(300)
             await mbb.delete()
             await message.delete()
         except Exception as e:
             logger.exception(e)
             mcc = await message.reply_photo(photo=SMART_PIC, caption=cap, reply_markup=InlineKeyboardMarkup(btn)) 
-            await asyncio.sleep(20)
+            await asyncio.sleep(300)
             await mcc.delete()
             await message.delete()     
     else:
@@ -1045,6 +1045,6 @@ async def manual_filters(client, message, text=False):
 @Client.on_callback_query(filters.regex(r"^malik"))
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
-    if int(req) not in [query.from_admin.id, 0]:
+    if int(req) not in [query, 0]:
         return await query.answer(f"⚠️ Hey, {query.from_user.first_name}.. \n\nSearch Your Own File, \n\n⚠️ Don't Click Others Results 😬", show_alert=True)
 
