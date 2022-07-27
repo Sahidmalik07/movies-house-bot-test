@@ -3,7 +3,7 @@ import asyncio
 import re
 import ast
 
-from plugins.malik.test import n_offset
+from plugins.malik.test import offset
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script, ALURT_FND, M_NT_FND, M_NNT_FND, M_NNT_FNDD
 import pyrogram
@@ -860,7 +860,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     btn.insert(0, [
         InlineKeyboardButton('♻️ Join Our Group ♻️', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A'),
-        InlineKeyboardButton("NEXT ⏩", callback_data=f"malik_{req}_{key}_{n_offset}")
+        InlineKeyboardButton("MALIK ⏩", callback_data=f"malik_{req}_{key}_{b_offset}")
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
