@@ -859,7 +859,6 @@ async def auto_filter(client, msg, spoll=False):
         )
     btn.insert(0, [
         InlineKeyboardButton('♻️ Join Our Group ♻️', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A'),
-        InlineKeyboardButton("MALIK ⏩", callback_data=f"malik_{offset}")
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
@@ -1041,8 +1040,3 @@ async def manual_filters(client, message, text=False):
                 break
     else:
         return False
-
-    elif query.data.startswith("checksub"):
-        if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒...\n\n 😳 bro niche diye gye updates channel ko join karo  jab tak aap updates channel join nahi karte tab tak bot apko movie nahi dega! ", show_alert=True)
-            return
