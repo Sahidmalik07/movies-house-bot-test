@@ -605,7 +605,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "Hello":
         await query.answer("Hello Bro", show_alert=True)
-        )
+        return
     elif query.data == "ytthumb":
         buttons = [[
             InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='help')
