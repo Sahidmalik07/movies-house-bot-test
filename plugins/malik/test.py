@@ -1,3 +1,6 @@
+#sahid malik
+from pyrogram import Client, filters
+
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
