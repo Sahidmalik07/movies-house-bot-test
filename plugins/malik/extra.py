@@ -805,11 +805,11 @@ def instatus(client, message):
     message.delete()
 
 
-SS_ALERT = """Hey {}.Welcome ❤️\nmy name is movies house 🏠 2.0 bot.\nI am Auto Filter bot.\njust add Me 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇, \n𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾 Also for free..
+SS_ALERT = """Hey {}.Welcome ❤️\nmy name is movies house 🏠 2.0 bot.\njust add Me 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,\n𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾 Also for free.
 🔆 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 🔆
 
 ✪ AutoFilter
-✪ nearly 7 Lakhs Files Pre Added
+✪ nearly 4.5 Lakhs Files Added
 ✪ daily adding new movies
 ✪ IMDb Real Details
 ✪ Two Buttons Mode
