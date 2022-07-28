@@ -809,11 +809,10 @@ SS_ALERT = """Hey {}.Welcome ❤️\nmy name is movies house 🏠 2.0 bot.\njust
 🔆 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 🔆
 
 ✪ AutoFilter
-✪ nearly 4.5 Lakhs Files Added
+✪ 4.5 Lakhs Files Added
 ✪ daily adding new movies
 ✪ IMDb Real Details
 ✪ Two Buttons Mode
-✪ Some other plugins🚶‍♂
 ✪ User Friendly"""
 
 
