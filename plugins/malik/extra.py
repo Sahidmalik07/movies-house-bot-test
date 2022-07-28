@@ -805,7 +805,7 @@ def instatus(client, message):
     message.delete()
 
 
-
+SS_ALERT = """malik {}."""
 
 
 REPORT = """➤ 𝐇𝐞𝐥𝐩: Report ⚠️
