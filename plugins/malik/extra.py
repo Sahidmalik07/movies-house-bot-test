@@ -805,7 +805,7 @@ def instatus(client, message):
     message.delete()
 
 
-SS_ALERT = """malik {}."""
+SS_ALERT = """<b>malik {}. <a href=http://t.me/movies_house_789_bot?startgroup=true>CLICK HERE</a></b>"""
 
 
 REPORT = """➤ 𝐇𝐞𝐥𝐩: Report ⚠️
