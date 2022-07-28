@@ -806,7 +806,7 @@ def instatus(client, message):
 
 
 
-SS_ALERT = """Hey {}.Welcome To bot info ❤️\n\nmy name is movies house 🏠 2.0 bot.\n\ni am Auto Filter bot.\n\njust add Me 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,\\nn𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾 Also for free."""
+SS_ALERT = """Hey {}.Welcome To bot info ❤️\n\nnmy name is movies house 🏠 2.0 bot.\n\ni am Auto Filter bot...😎\n\njust add Me 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,\n\n𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾 Also for free..😎"""
 
 REPORT = """➤ 𝐇𝐞𝐥𝐩: Report ⚠️
 
