@@ -1,7 +1,10 @@
+# sahid malik
+
+from plugins.malik.extra import GHHMT, STTS, PPC, WCM, WCM_P
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong, PeerIdInvalid
-from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT, PHT, MELCOW_NEW_USERS, MALIK_PH
+from info import ADMINS, LOG_CHANNEL, PHT, SUPPORT_CHAT, MELCOW_NEW_USERS
 from database.users_chats_db import db
 from database.ia_filterdb import Media
 from utils import get_size, temp, get_settings
@@ -37,7 +40,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('♻️ Help ♻️', url=f"https://t.me/{temp.U_NAME}?start=help"),
             InlineKeyboardButton('💎 Updates 💎', url='https://t.me/m_house786')
         ],[InlineKeyboardButton('🌴 Bots Channel 🌴', url='https://t.me/malik_bots')]]
         reply_markup=InlineKeyboardMarkup(buttons)
@@ -46,6 +49,7 @@ async def save_group(bot, message):
             caption=(ADG.format(message.from_user.mention, message.chat.title)),
             reply_markup=reply_markup)
     else:
+
         settings = await get_settings(message.chat.id)
         if settings["welcome"]:
             for u in message.new_chat_members:
@@ -55,14 +59,11 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_photo(
-                                                 photo=(MALIK_PH),
-                                                 caption=(MALIK_PHH.format(u.mention, message.chat.title)),
+                                                 photo=(WCM_P),
+                                                 caption=(WCM.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('♻️ Contact Owner ♻️', url="https://t.me/sahid_malik")
-                                                                           ],[
                                                                            InlineKeyboardButton('♻️ GROUP RULES ♻️', callback_data='group_rules')
-                                                                         
                                                                          ]]
                                                  ),
                                                  parse_mode='html'
@@ -153,7 +154,7 @@ async def re_enable_chat(bot, message):
 
 @Client.on_message(filters.command('stats') & filters.incoming)
 async def get_ststs(bot, message):
-    rju = await message.reply('Fetching stats..')
+    malik = await message.reply('My Stats 🎢')
     total_users = await db.total_users_count()
     totl_chats = await db.total_chat_count()
     files = await Media.count_documents()
@@ -161,8 +162,17 @@ async def get_ststs(bot, message):
     free = 536870912 - size
     size = get_size(size)
     free = get_size(free)
-    await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free))
-
+    await malik.reply_photo(
+               photo=(PPC),
+               caption=(STTS.format(files, total_users, totl_chats, size, free)),
+               reply_markup=InlineKeyboardMarkup(
+                                      [[
+                                        InlineKeyboardButton('💢 Close 💢', callback_data='close_data'),
+                                        InlineKeyboardButton('♻️ Refresh ♻️', callback_data='rfrsh')
+                                      ]]
+               ),
+               parse_mode='html'
+)
 
 # a function for trespassing into others groups, Inspired by a Vazha
 # Not to be used , But Just to showcase his vazhatharam.
