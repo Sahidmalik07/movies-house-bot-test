@@ -812,8 +812,7 @@ SS_ALERT = """Hey {}.Welcome ❤️\nmy name is movies house 🏠 2.0 bot.\njust
 ✪ 4.5 Lakhs Files Added
 ✪ daily adding new movies
 ✪ IMDb Real Details
-✪ Two Buttons Mode
-✪ User Friendly"""
+✪ Two Buttons Mode"""
 
 
 REPORT = """➤ 𝐇𝐞𝐥𝐩: Report ⚠️
