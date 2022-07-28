@@ -2,7 +2,7 @@
 import asyncio
 import re
 import ast
-from plugins.malik.extra import GHHMT, SMART_PIC, STTS, MQTT, TEL, MQTTP, PPC, REPORT, PURGE, MUTE
+from plugins.malik.extra import GHHMT, SMART_PIC, STTS, MQTT, TEL, MQTTP, PPC, REPORT, PURGE, MUTE, SS_ALERT 
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script, ALURT_FND, M_NT_FND
 import pyrogram
@@ -630,8 +630,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "Hello":
-        await query.answer(SS_ALERT)show_alert=True))
+    elif query.data == "ss_alert":
+        await query.answer(SS_ALERT.format(query.from_user.first_name),show_alert=True))
         return
     elif query.data == "videos":
         buttons = [[
@@ -901,7 +901,8 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
+        InlineKeyboardButton('🙏 Subscribe my YouTube channel 🙏', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A'),
+        InlineKeyboardButton('Stats', callback_data='ss_alert')
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
