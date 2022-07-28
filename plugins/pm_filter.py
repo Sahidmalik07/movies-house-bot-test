@@ -631,7 +631,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "ss_alert":
-        await query.answer(SS_ALERT.format.show_alert=True),
+        await query.answer(SS_ALERT),show_alert=True),
         return
     elif query.data == "videos":
         buttons = [[
