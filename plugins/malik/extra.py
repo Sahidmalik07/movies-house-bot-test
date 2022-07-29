@@ -810,7 +810,7 @@ def instatus(client, message):
 
 
 SS_ALERT = """Hey {}. ❤️\nmy name movies house 🏠 bot.\n\ni am Auto Filter bot...😎\n\njust add Me To Your 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,\n\n𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 your group...😎
-\nmore information type 👉 /botinfo 🔹Owner info Tipe 👉 /owner"""
+\nmore info. type 👉 /botinfo 🔹Owner info Tipe 👉 /owner"""
 
 RULES_ALERT = """Hey {}. ❤️
 🔹Movie Search Exl. 
