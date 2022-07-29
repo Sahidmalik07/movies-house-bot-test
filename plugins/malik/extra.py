@@ -933,7 +933,7 @@ Thanks For Your Support...
 
 GHHMM = """<b>Hey {}.. Welcome to bot info ❤️.
 
-My name movies house 🏠 bot..
+✪ My name movies house 🏠 bot..
 I am Auto Filter bot.. 
 
 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖮𝗎𝗋 𝖡𝗈𝗍 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇, 𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾 free... 😎
@@ -946,8 +946,8 @@ I am Auto Filter bot..
 ✪ Two Buttons Mode
 ✪ Force Subscribe
 ✪ File-Store 
-✪ Extra Features: download songs, download you tube video, URL Shortner, mute user. unmute user, purge, Admin report, photo convertor Telegraph link... 
-\nXtra check spelling. Check Movie release date 📅. Ott Release Date and More..
+✪ Extra Features: download songs,    download you tube video, URL Shortner, mute user. unmute user, purge, Admin report, photo convertor Telegraph link... 
+\n✪ Xtra check spelling. Check Movie release date 📅. Ott Release Date and More..
 
 ⚙ More Features Adding Soon</b> 😎"""
 
