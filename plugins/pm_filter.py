@@ -907,7 +907,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     btn.insert(0, [
         InlineKeyboardButton('Bot info', callback_data='ss_alert'),
-        InlineKeyboardButton('SUBSCRIBE YT', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A')
+        InlineKeyboardButton('Subscribe', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A'),
         InlineKeyboardButton('Rules', callback_data='rules_alert')
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
