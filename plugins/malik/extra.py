@@ -58,7 +58,7 @@ class evamaria(Client):
 
 
 
-@Client.on_message(filters.command("star") & filters.incoming & ~filters.edited)
+@Client.on_message(filters.command("botinfo") & filters.incoming & ~filters.edited)
 async def star(client, message):
     if len(message.command):
         buttons = [[
@@ -66,26 +66,13 @@ async def star(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=(GHHMT.format(total_users)),
+            text=(GHHMT),
             reply_markup=reply_markup,
             parse_mode='html'
         )
         return
 
 @Client.on_message(filters.command('malik') & filters.incoming)
-async def get_ststs(bot, message):
-    malik = await message.reply('Wait..')
-    total_users = await db.total_users_count()
-    await malik.edit(
-               text=(GHHMT.format(total_users)),
-               reply_markup=InlineKeyboardMarkup(
-                                      [[
-                                        InlineKeyboardButton('🌐 Add Me To Your Groups 🌐', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                                      ]]
-               ),
-               parse_mode='html'
-)
-@Client.on_message(filters.command('botinfo') & filters.incoming)
 async def get_ststs(bot, message):
     malik = await message.reply('Wait..')
     total_users = await db.total_users_count()
