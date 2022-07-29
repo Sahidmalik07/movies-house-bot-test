@@ -814,15 +814,17 @@ SS_ALERT = """Hey {}.Welcome To bot info ❤️\n\nmy name movies house 🏠 bot
 
 RULES_ALERT = """Hey {}..
 
-🔹 Search movie Exl. 
+🔹Movie Search Exl. 
 (1) Avengers ✅
 (2) Avengers Hindi ✅
-(3) Avengers movie ❌ hindi dubb ❌
+(3) Avengers Hindi movie ❌
 
 🔹 Web Series Exl:
 (1) Vikings S01 ✅
 (2) Vikings S01E01 ✅
-(4) Vikings Season 1 ❌"""
+(4) Vikings Season 1 ❌
+🔹More info tipe 👉 /Rules
+🔹Owner info Tipe 👉 /owner"""
 
 REPORT = """➤ 𝐇𝐞𝐥𝐩: Report ⚠️
 
