@@ -66,7 +66,7 @@ async def star(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
-            photo=(GHHMN),
+            photo=(GHHM),
             caption=(GHHMM.format(query.from_user.first_name),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -956,4 +956,7 @@ MQTTP = environ.get("MQTTP", "https://telegra.ph/file/f8a3c7a57376427646f39.jpg"
 TG_MAX_SELECT_LEN = environ.get("TG_MAX_SELECT_LEN", "100")
 WCM_P = environ.get("WCM_P", "https://telegra.ph/file/bdaa63ddf255fd3506f0a.jpg")
 SMART_PIC = environ.get("SMART_PIC", "https://telegra.ph/file/7cf564b255461abfc75fe.jpg")
+GHHMN = environ.get("GHHMN", "https://telegra.ph/file/605f4c8b2461c1e4f8123.jpg")
+
+
 
