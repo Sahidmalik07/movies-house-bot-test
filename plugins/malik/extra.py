@@ -812,7 +812,21 @@ def instatus(client, message):
 SS_ALERT = """Hey {}.Welcome To bot info ❤️\n\nmy name movies house 🏠 bot.\n\ni am Auto Filter bot...😎\n\njust add Me To Your 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,\n\n𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 your group...😎
 \nmore information type 👉 /botinfo"""
 
-RULES_ALERT = """malik {}.."""
+RULES_ALERT = """Hey {}..
+
+Search With Correct Spelling..
+
+🔹 Search movie Exl. 
+(1) Avengers ✅
+(2) Avengers Hindi ✅
+(3) Avengers movie ❌
+(4) Avengers Hindi Dubbed ❌
+
+🔹 Search Web Series Exl:
+(1) Vikings S01 ✅
+(2) Vikings S01E02 ✅
+(3) Vikings S01E10 ✅
+(4) Vikings Season 1 ❌"""
 
 REPORT = """➤ 𝐇𝐞𝐥𝐩: Report ⚠️
 
