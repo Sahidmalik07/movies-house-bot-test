@@ -809,10 +809,10 @@ def instatus(client, message):
 
 
 
-SS_ALERT = """Hey {}.Welcome To bot info ❤️\n\nmy name movies house 🏠 bot.\n\ni am Auto Filter bot...😎\n\njust add Me To Your 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,\n\n𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 your group...😎
+SS_ALERT = """Hey {}.Welcome ❤️\n\nmy name movies house 🏠 bot.\n\ni am Auto Filter bot...😎\n\njust add Me To Your 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,\n\n𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 your group...😎
 \nmore information type 👉 /botinfo 🔹Owner info Tipe 👉 /owner"""
 
-RULES_ALERT = """Hey {}..
+RULES_ALERT = """Hey {}. Welcome ❤️
 
 🔹Movie Search Exl. 
 (1) Avengers ✅
