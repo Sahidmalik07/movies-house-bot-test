@@ -67,7 +67,7 @@ async def star(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=(GHHMN),
-            caption=(GHHMM.format(query.from_user.first_name)),
+            caption=(GHHMM.format(message.from_user.mention)),
             reply_markup=reply_markup,
             parse_mode='html'
         )
