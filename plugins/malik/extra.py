@@ -995,7 +995,7 @@ GHHMM = """<b>Hey {}.. Welcome to bot info ❤️.
 
 🔹 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖮𝗎𝗋 𝖡𝗈𝗍 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 
       𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,  
-🔹 𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾 free.. 😎
+🔹 𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾 free..
 
         ♋️ 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 ♋️
 
@@ -1040,10 +1040,15 @@ GROUP_Rules = """<b>🔹 GROUP RULES 🔹
 🔹 (8) Vikings Web Series ❌
 
 🔹 Don't Do Any Self Promotion.
-🔹 Don't Send Any Kind Of Photo Video Documents URL ETC.
-🔹 Sending The Above  Mantained Things Will Lead To Permanent Ban.
+
+🔹 Don't Send Any Kind Of Photo, Video Documents URL ETC.
+
+🔹 Sending The Above  Mantained, Things Will Lead To Permanent Ban.
+
 🔹 Don't Request Any Things Other Than Movie Series Animes.
+
 🔹 Don't Disturb Anyone On The Group 
+
 🔹 Give and Tak Respect</b>"""
 
 
