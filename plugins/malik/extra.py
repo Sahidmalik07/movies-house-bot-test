@@ -1018,7 +1018,8 @@ GHHMM = """<b>Hey {}.. Welcome to bot info ❤️.
 
 ⚙ More Features Adding Soon</b> 😎"""
 
-GROUP_Rules = """<b>🔹 GROUP RULES 🔹
+GROUP_Rules = """<b>
+     🔹 GROUP RULES 🔹
 
 🔹 Search With Correct Spelling..
 🔹 Try to Search movie With  Year If The bot is Not Sending You Accurate Result..
@@ -1049,14 +1050,14 @@ GROUP_Rules = """<b>🔹 GROUP RULES 🔹
 
 🔹 Don't Disturb Anyone On The Group 
 
-🔹 Give and Tak Respect</b>"""
+🔹 Give and Take Respect</b>"""
 
 
 MY_DETALS = """<b>Hey {}. Welcome ❤️
 
 🔹 My Name :  Sahid malik
-🔹 USERNAME: @sahid_malik 
-🔹 PERMANENT DM LINK : <a href=https://t.me/sahid_malik>CLICK Here</a>
+🔹 Username: @sahid_malik 
+🔹 Pmt. DM Link: <a href=https://t.me/sahid_malik>CLICK Here</a>
 🔹 Place : Saharanpur | UP | India
 🔹 Know Language: Hindi, English,
       Malyalam
