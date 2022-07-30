@@ -2,7 +2,7 @@
 import asyncio
 import re
 import ast
-from plugins.malik.extra import GHHMT, RULES_ALERT, SMART_PIC, STTS, MQTT, TEL, MQTTP, PPC, REPORT, PURGE, MUTE, SS_ALERT 
+from plugins.malik.extra import GHHMT, RULES_ALERT, GROUP_Rules, SMART_PIC, STTS, MQTT, TEL, MQTTP, PPC, REPORT, PURGE, MUTE, SS_ALERT 
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script, ALURT_FND, M_NT_FND
 import pyrogram
