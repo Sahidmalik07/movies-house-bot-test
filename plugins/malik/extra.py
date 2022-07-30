@@ -71,7 +71,6 @@ async def star(client, message):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        return
 
 @Client.on_message(filters.command("owner") & filters.incoming & ~filters.edited)
 async def star(client, message):
