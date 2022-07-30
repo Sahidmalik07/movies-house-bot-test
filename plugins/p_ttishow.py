@@ -60,7 +60,7 @@ async def save_group(bot, message):
                         pass
                 temp.MELCOW['welcome'] = await message.reply_photo(
                                                  photo=(WCM_P),
-                                                 caption=(GROUP_Rules.format(u.mention, message.chat.title)),
+                                                 caption=(WCM.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
                                                                            InlineKeyboardButton('♻️ GROUP RULES ♻️', callback_data='group_rules')
