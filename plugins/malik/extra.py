@@ -72,23 +72,6 @@ async def star(client, message):
             parse_mode='html'
         )
 
-@Client.on_message(filters.command("owner") & filters.incoming & ~filters.edited)
-async def star(client, message):
-    if len(message.command):
-        buttons = [[
-            InlineKeyboardButton('CONTACTME', url='https://t.me/sahid_malik')
-            ],[
-            InlineKeyboardButton('💢 close 💢', callback_data='close_data')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_photo(
-            photo=(GHHMN),
-            caption=(MY_DETALS.format(message.from_user.mention)),
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
-        return
-
 @Client.on_message(filters.command('malik') & filters.incoming)
 async def get_ststs(bot, message):
     malik = await message.reply('Wait..')
@@ -102,6 +85,23 @@ async def get_ststs(bot, message):
                ),
                parse_mode='html'
 )
+
+@Client.on_message(filters.command("owner") & filters.incoming & ~filters.edited)
+async def star(client, message):
+    if len(message.command):
+        buttons = [[
+            InlineKeyboardButton('CONTACT ME', url='https://t.me/sahid_malik')
+            ],[
+            InlineKeyboardButton('💢 close 💢', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_photo(
+            photo=(GHHMN),
+            caption=(MY_DETALS.format(message.from_user.mention)),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+        return
 
 
 # Ban py
