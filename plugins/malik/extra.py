@@ -855,7 +855,7 @@ SS_ALERT = """Hey {} ❤️
 🔹More Details Type 👉 /BOTINFO 
 🔹Owner Details Tipe 👉 /OWNER"""
 
-RULES_ALERT = """Hey {} ❤️
+RULES_ALERT = """
 
 🔹Movie Search Exl. 
  1 Avengers ✅
