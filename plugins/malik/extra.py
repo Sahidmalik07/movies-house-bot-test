@@ -59,14 +59,14 @@ class evamaria(Client):
 
 
 @Client.on_message(filters.command("botinfo") & filters.incoming & ~filters.edited)
-async def star(client, message):
+async def malik(client, message):
     if len(message.command):
         buttons = [[
             InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
-            photo=(GHHMN),
+            photo=(GHHMO),
             caption=(GHHMM.format(message.from_user.mention)),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1002,6 +1002,8 @@ TG_MAX_SELECT_LEN = environ.get("TG_MAX_SELECT_LEN", "100")
 WCM_P = environ.get("WCM_P", "https://telegra.ph/file/bdaa63ddf255fd3506f0a.jpg")
 SMART_PIC = environ.get("SMART_PIC", "https://telegra.ph/file/7cf564b255461abfc75fe.jpg")
 GHHMN = environ.get("GHHMN", "https://telegra.ph/file/605f4c8b2461c1e4f8123.jpg")
+GHHMO = environ.get("GHHMNO", "https://telegra.ph/file/605f4c8b2461c1e4f8123.jpg")
+
 
 
 
