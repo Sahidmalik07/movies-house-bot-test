@@ -73,6 +73,21 @@ async def star(client, message):
         )
         return
 
+@Client.on_message(filters.command("/owner") & filters.incoming & ~filters.edited)
+async def star(client, message):
+    if len(message.command):
+        buttons = [[
+            Inl
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_photo(
+            photo=(GHHMN),
+            caption=(GHHMM.format(message.from_user.mention)),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+        return
+
 @Client.on_message(filters.command('malik') & filters.incoming)
 async def get_ststs(bot, message):
     malik = await message.reply('Wait..')
@@ -963,6 +978,18 @@ I am Auto Filter bot..
 \n✪ Xtra check spelling. Check Movie release date 📅. Ott Release Date and More..
 
 ⚙ More Features Adding Soon</b> 😎"""
+
+
+MY_DETALS = """<b>
+🔹 Name :  Sahid malik
+🔹 Place : Saharanpur | UP | India
+🔹 Know Language: Hindi, English, Malyalam
+🔹 Religion Cast : Muslim 
+🔹 Dob : 00 | 09 | 2005
+🔹 Age: Just calculate 
+🔹 Level:  Frist Year BTEC ECE
+🔹 Fav Colour: Red, Green, Black 
+🔹 Nb: Easy to Cry Easy To Laugh Hard To Leave Hard To Forgot..</b>"""
 
 
 
