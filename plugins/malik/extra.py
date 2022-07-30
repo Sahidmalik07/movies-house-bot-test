@@ -59,7 +59,7 @@ class evamaria(Client):
 
 
 @Client.on_message(filters.command("botinfo") & filters.incoming & ~filters.edited)
-async def malik(client, message):
+async def botinfo(client, message):
     if len(message.command):
         buttons = [[
             InlineKeyboardButton('❇️ Add Me To Your Groups ❇️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
@@ -87,7 +87,7 @@ async def get_ststs(bot, message):
 )
 
 @Client.on_message(filters.command("owner") & filters.incoming & ~filters.edited)
-async def star(client, message):
+async def owner(client, message):
     if len(message.command):
         buttons = [[
             InlineKeyboardButton('CONTACT ME', url='https://t.me/sahid_malik')
