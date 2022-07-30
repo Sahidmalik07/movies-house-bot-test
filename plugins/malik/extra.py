@@ -1009,31 +1009,33 @@ GHHMM = """<b>Hey {}.. Welcome to bot info ❤️.
 🔹 Force Subscribe
 🔹 File-Store 
 🔹 Extra Features: download songs,
-    download you tube video, 
-    URL Shortner, mute user. 
-    unmute user, purge,
-    Admin report, Purge, 
-    photo convertor Telegraph link... 
+🔹 download you tube video, 
+🔹 URL Shortner, mute user. 
+🔹 unmute user, purge,
+🔹 Admin report, Purge, 
+🔹 photo convertor Telegraph link... 
 
-🔹 Xtra check spelling. 
-   Check Movie release date 📅. 
-   Ott Release Date and More..
+🔹 Xtra check spelling. Buttons..
+🔹 Check Movie release date 📅. 
+🔹 Ott Release Date and More..
 
 ⚙ More Features Adding Soon</b> 😎"""
 
 
 MY_DETALS = """<b>Hey {}. Welcome ❤️
-🔹 Name :  Sahid malik
+
+🔹 My Name :  Sahid malik
 🔹 USERNAME: @sahid_malik 
 🔹 Place : Saharanpur | UP | India
-🔹 Know Language: Hindi, English, Malyalam
+🔹 Know Language: Hindi, English,
+     Malyalam
 🔹 Religion Cast : Muslim 
 🔹 Dob : 00 | 09 | 2005
 🔹 Age: Just calculate 
 🔹 Level:  Frist Year BTEC ECE
 🔹 Fav Colour: Red, Green, Black 
 🔹 Nb: Easy to Cry Easy To Laugh, 
-    Hard To Leave Hard To Forgot..</b>"""
+     Hard To Leave Hard To Forgot..</b>"""
 
 
 
