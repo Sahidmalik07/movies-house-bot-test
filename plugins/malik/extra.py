@@ -856,7 +856,6 @@ SS_ALERT = """
 🔹Owner Details Tipe 👉 /OWNER"""
 
 RULES_ALERT = """
-   🔹 RULES 🔹
 🔹Movie Search Exl. 
  1 Avengers ✅
  2 Avengers Hindi ✅
