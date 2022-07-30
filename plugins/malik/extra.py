@@ -849,26 +849,26 @@ def instatus(client, message):
 
 
 
-SS_ALERT = """Hey {}. ❤️
+SS_ALERT = """Hey {} ❤️
 
-🔹my name movies house 🏠 bot.
-🔹i am Auto Filter bot...😎
-🔹just add Me To Your 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,
-🔹𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 your group...😎
+🔹my name movies house 🏠 bot
+🔹i am Auto Filter bot.😎
+🔹just add Me To Your 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇
+🔹𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 your group.😎
 🔹more Details type 👉 /BOTINFO 
 🔹Owner Details Tipe 👉 /OWNER"""
 
-RULES_ALERT = """Hey {}. ❤️
+RULES_ALERT = """Hey {} ❤️
 
 🔹Movie Search Exl. 
-(1) Avengers ✅
-(2) Avengers Hindi ✅
-(3) Avengers Hindi movie ❌
+ 1 Avengers ✅
+ 2 Avengers Hindi ✅
+ 3 Avengers Hindi movie ❌
 
 🔹 Web Series Exl:
-(1) Vikings S01 ✅
-(2) Vikings S01E01 ✅
-(4) Vikings Season 1 ❌
+ 1 Vikings S01 ✅
+ 2 Vikings S01E01 ✅
+ 3 Vikings Season 1 ❌
 
 🔹More Details tipe 👉 /RULES"""
 
