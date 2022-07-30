@@ -974,7 +974,7 @@ NOTE:
 
 
 
-GHHMT = """<b>Thanks For {}.User... 💖 
+GHHMT = """<b>Thanks For 👨‍👧‍👧 {}.User... 💖 
 
 🔹 Thanks For Your Support...
 
@@ -997,10 +997,11 @@ GHHMM = """<b>Hey {}.. Welcome to bot info ❤️.
 🔹 My name movies house 🏠 bot..
 🔹 I am Auto Filter bot.. 
 
-🔹 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖮𝗎𝗋 𝖡𝗈𝗍 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,  
-    𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾 free... 😎
+🔹 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖮𝗎𝗋 𝖡𝗈𝗍 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 
+      𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,  
+🔹 𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾 free.. 😎
 
-       ♋️ 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 ♋️
+        ♋️ 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 ♋️
 
 🔹 AutoFilter, Manual Filter
 🔹 IMDb HD Posters
@@ -1028,14 +1029,14 @@ MY_DETALS = """<b>Hey {}. Welcome ❤️
 🔹 USERNAME: @sahid_malik 
 🔹 Place : Saharanpur | UP | India
 🔹 Know Language: Hindi, English,
-     Malyalam
+      Malyalam
 🔹 Religion Cast : Muslim 
 🔹 Dob : 00 | 09 | 2005
 🔹 Age: Just calculate 
 🔹 Level:  Frist Year BTEC ECE
 🔹 Fav Colour: Red, Green, Black 
 🔹 Nb: Easy to Cry Easy To Laugh, 
-     Hard To Leave Hard To Forgot..</b>"""
+      Hard To Leave Hard To Forgot..</b>"""
 
 
 
