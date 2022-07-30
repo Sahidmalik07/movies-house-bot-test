@@ -1057,7 +1057,7 @@ MY_DETALS = """<b>Hey {}. Welcome ❤️
 
 🔹 My Name :  Sahid malik
 🔹 Username: @sahid_malik 
-🔹 Pmt. DM Link: <a href=https://t.me/sahid_malik>CLICK Here</a>
+🔹 Pmt. Dm Link: <a href=https://t.me/sahid_malik>CLICK HERE</a>
 🔹 Place : Saharanpur | UP | India
 🔹 Know Language: Hindi, English,
       Malyalam
