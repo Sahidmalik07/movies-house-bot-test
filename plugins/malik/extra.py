@@ -845,7 +845,7 @@ def instatus(client, message):
 
 
 
-SS_ALERT = """Hey {} ❤️
+SS_ALERT = """
 
 🔹My Name movies house 🏠 bot
 🔹I Am Auto Filter Bot.😎
@@ -856,7 +856,7 @@ SS_ALERT = """Hey {} ❤️
 🔹Owner Details Tipe 👉 /OWNER"""
 
 RULES_ALERT = """
-
+   🔹 RULES 🔹
 🔹Movie Search Exl. 
  1 Avengers ✅
  2 Avengers Hindi ✅
