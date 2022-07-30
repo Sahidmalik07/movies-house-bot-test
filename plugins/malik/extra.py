@@ -75,7 +75,7 @@ async def star(client, message):
         )
         return
 
-@Client.on_message(filters.command("/owner") & filters.incoming & ~filters.edited)
+@Client.on_message(filters.command("owner") & filters.incoming & ~filters.edited)
 async def star(client, message):
     if len(message.command):
         buttons = [[
