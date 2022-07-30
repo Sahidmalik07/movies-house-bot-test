@@ -851,11 +851,12 @@ def instatus(client, message):
 
 SS_ALERT = """Hey {} ❤️
 
-🔹my name movies house 🏠 bot
-🔹i am Auto Filter bot.😎
-🔹just add Me To Your 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇
-🔹𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 your group.😎
-🔹more Details type 👉 /BOTINFO 
+🔹My Name movies house 🏠 bot
+🔹I Am Auto Filter Bot.😎
+🔹Just Add Me To Your 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇
+🔹𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 Your Group.😎
+
+🔹More Details Type 👉 /BOTINFO 
 🔹Owner Details Tipe 👉 /OWNER"""
 
 RULES_ALERT = """Hey {} ❤️
@@ -870,7 +871,7 @@ RULES_ALERT = """Hey {} ❤️
  2 Vikings S01E01 ✅
  3 Vikings Season 1 ❌
 
-🔹More Details tipe 👉 /RULES"""
+🔹More Details Tipe 👉 /RULES"""
 
 REPORT = """➤ 𝐇𝐞𝐥𝐩: Report ⚠️
 
