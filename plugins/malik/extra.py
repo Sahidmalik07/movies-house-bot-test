@@ -56,9 +56,9 @@ class evamaria(Client):
             sleep_threshold=60
         )
 
+# Commands Botinfo
 
-
-@Client.on_message(filters.command("botinfo") & filters.incoming & ~filters.edited)
+@Client.on_message(filters.command("BOTINFO") & filters.incoming & ~filters.edited)
 async def botinfo(client, message):
     if len(message.command):
         buttons = [[
@@ -71,6 +71,8 @@ async def botinfo(client, message):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+
+# Commands stats
 
 @Client.on_message(filters.command('malik') & filters.incoming)
 async def get_ststs(bot, message):
@@ -86,7 +88,9 @@ async def get_ststs(bot, message):
                parse_mode='html'
 )
 
-@Client.on_message(filters.command("owner") & filters.incoming & ~filters.edited)
+# Commands Owner Details 
+
+@Client.on_message(filters.command("OWNER") & filters.incoming & ~filters.edited)
 async def owner(client, message):
     if len(message.command):
         buttons = [[
@@ -102,6 +106,26 @@ async def owner(client, message):
             parse_mode='html'
         )
         return
+
+# Commands Rules
+
+@Client.on_message(filters.command("RULES") & filters.incoming & ~filters.edited)
+async def rules(client, message):
+    if len(message.command):
+        buttons = [[
+            InlineKeyboardButton('CONTACT ME', url='https://t.me/sahid_malik')
+            ],[
+            InlineKeyboardButton('💢 close 💢', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_photo(
+            photo=(GHHMN),
+            caption=(MY_DETALS.format(message.from_user.mention)),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+        return
+
 
 
 # Ban py
@@ -825,10 +849,17 @@ def instatus(client, message):
 
 
 
-SS_ALERT = """Hey {}. ❤️\nmy name movies house 🏠 bot.\n\ni am Auto Filter bot...😎\n\njust add Me To Your 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,\n\n𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 your group...😎
-\nmore info. type 👉 /botinfo 🔹Owner info Tipe 👉 /owner"""
+SS_ALERT = """Hey {}. ❤️
+
+🔹my name movies house 🏠 bot.
+🔹i am Auto Filter bot...😎
+🔹just add Me To Your 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,
+🔹𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 your group...😎
+🔹more Details type 👉 /BOTINFO 
+🔹Owner Details Tipe 👉 /OWNER"""
 
 RULES_ALERT = """Hey {}. ❤️
+
 🔹Movie Search Exl. 
 (1) Avengers ✅
 (2) Avengers Hindi ✅
@@ -839,7 +870,7 @@ RULES_ALERT = """Hey {}. ❤️
 (2) Vikings S01E01 ✅
 (4) Vikings Season 1 ❌
 
-🔹More info tipe 👉 /Rules"""
+🔹More Details tipe 👉 /RULES"""
 
 REPORT = """➤ 𝐇𝐞𝐥𝐩: Report ⚠️
 
