@@ -94,8 +94,6 @@ async def get_ststs(bot, message):
 async def owner(client, message):
     if len(message.command):
         buttons = [[
-            InlineKeyboardButton('CONTACT ME', url='https://t.me/sahid_malik')
-            ],[
             InlineKeyboardButton('💢 close 💢', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -113,14 +111,12 @@ async def owner(client, message):
 async def rules(client, message):
     if len(message.command):
         buttons = [[
-            InlineKeyboardButton('CONTACT ME', url='https://t.me/sahid_malik')
-            ],[
             InlineKeyboardButton('💢 close 💢', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
-            photo=(GHHMN),
-            caption=(MY_DETALS.format(message.from_user.mention)),
+            photo=(G_R),
+            caption=(GROUP_Rules),
             reply_markup=reply_markup,
             parse_mode='html'
         )
@@ -1022,11 +1018,40 @@ GHHMM = """<b>Hey {}.. Welcome to bot info ❤️.
 
 ⚙ More Features Adding Soon</b> 😎"""
 
+GROUP_Rules = """<b>🔹 GROUP RULES 🔹
+
+🔹 Search With Correct Spelling..
+🔹 Try to Search movie With  Year If The bot is Not Sending You Accurate Result..
+
+🔹 Search Movies  in The Given From Exl:    
+🔹 (1) Avengers ✅
+🔹 (2) Avengers Hindi ✅
+🔹 (3) Avengers Movie ❌
+🔹 (4) Avengers Hindi Dubbed..❌
+
+🔹 Search Web Series in The Given From Exl:
+🔹 (1) Vikings S01 ✅
+🔹 (2) Vikings S01E01 ✅
+🔹 (3) Vikings S01E10 ✅
+🔹 (4) Vikings S01 Hindi ✅
+🔹 (5) Vikings S01 Hindi dubb. ❌
+🔹 (6) Vikings Season 1 ❌
+🔹 (7) Vikings Season 1 Episode 1 ❌
+🔹 (8) Vikings Web Series ❌
+
+🔹 Don't Do Any Self Promotion.
+🔹 Don't Send Any Kind Of Photo Video Documents URL ETC.
+🔹 Sending The Above  Mantained Things Will Lead To Permanent Ban.
+🔹 Don't Request Any Things Other Than Movie Series Animes.
+🔹 Don't Disturb Anyone On The Group 
+🔹 Give and Tak Respect</b>"""
+
 
 MY_DETALS = """<b>Hey {}. Welcome ❤️
 
 🔹 My Name :  Sahid malik
 🔹 USERNAME: @sahid_malik 
+🔹 PERMANENT DM LINK : <a href=https://t.me/sahid_malik>CLICK Here</a>
 🔹 Place : Saharanpur | UP | India
 🔹 Know Language: Hindi, English,
       Malyalam
@@ -1048,7 +1073,7 @@ WCM_P = environ.get("WCM_P", "https://telegra.ph/file/bdaa63ddf255fd3506f0a.jpg"
 SMART_PIC = environ.get("SMART_PIC", "https://telegra.ph/file/7cf564b255461abfc75fe.jpg")
 GHHMN = environ.get("GHHMN", "https://telegra.ph/file/605f4c8b2461c1e4f8123.jpg")
 GHHMO = environ.get("GHHMNO", "https://telegra.ph/file/605f4c8b2461c1e4f8123.jpg")
-
+G_R = environ.get("G_R", "https://telegra.ph/file/0dd95cec0179cb3721d71.jpg")
 
 
 
