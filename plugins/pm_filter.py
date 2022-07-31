@@ -108,7 +108,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('ʙᴏᴛɪɴғᴏ', callback_data='ss_alert'),
+        InlineKeyboardButton('Bᴏᴛɪɴғᴏ', callback_data='ss_alert'),
         InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A'),
         InlineKeyboardButton('ʀᴜʟᴇs', callback_data='rules_alert')
     ])
@@ -906,7 +906,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton('ʙᴏᴛɪɴғᴏ', callback_data='ss_alert'),
+        InlineKeyboardButton('Bᴏᴛɪɴғᴏ', callback_data='ss_alert'),
         InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A'),
         InlineKeyboardButton('ʀᴜʟᴇs', callback_data='rules_alert')
     ])
