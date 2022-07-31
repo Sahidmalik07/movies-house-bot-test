@@ -856,17 +856,17 @@ SS_ALERT = """
 🔹Oᴠɴᴇʀ ᴅᴇᴛᴀɪʟs ᴛɪᴘᴇ  👉  /ᴏᴡɴᴇʀ"""
 
 RULES_ALERT = """
-🔹Movie Search Exl. 
- 1 Avengers ✅
- 2 Avengers Hindi ✅
- 3 Avengers Hindi movie ❌
+🔹ᴍᴏᴠɪᴇ sᴇᴀʀᴄʜ Ex:
+ 1 ᴀᴠᴇɴɢᴇʀs ✅
+ 2 ᴀᴠᴇɴɢᴇʀs ʜɪɴᴅɪ ✅
+ 3 ᴀᴠᴇɴɢᴇʀs ʜɪɴᴅɪ ᴍᴏᴠɪᴇ ❌
 
-🔹 Web Series Exl:
- 1 Vikings S01 ✅
- 2 Vikings S01E01 ✅
- 3 Vikings Season 1 ❌
+🔹 Wᴇʙ Sᴇʀɪᴇs Exʟ:
+ 1 ᴠɪᴋɪɴɢs S01 ✅
+ 2 ᴠɪᴋɪɴɢs S01E01 ✅
+ 3 ᴠɪᴋɪɴɢs sᴇᴀsᴏɴ 1 ❌
 
-🔹More Details Tipe 👉 /RULES"""
+🔹Mᴏʀᴇ ᴅᴇᴛᴀɪʟᴇs ᴛɪᴘᴇ 👉 /ʀᴜʟᴇs"""
 
 REPORT = """➤ 𝐇𝐞𝐥𝐩: Report ⚠️
 
