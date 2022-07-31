@@ -108,7 +108,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton('Bᴏᴛɪɴғᴏ', callback_data='ss_alert'),
+        InlineKeyboardButton('ʙᴏᴛ ɪɴғᴏ', callback_data='ss_alert'),
         InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A'),
         InlineKeyboardButton('ʀᴜʟᴇs', callback_data='rules_alert')
     ])
@@ -144,7 +144,7 @@ async def advantage_spoll_choker(bot, query):
                text=(M_NT_FND),
                reply_markup=InlineKeyboardMarkup(
                                       [[
-                                        InlineKeyboardButton('💢 Request 💢', url="https://t.me/m_admins"),
+                                        InlineKeyboardButton('💢 𝗿𝗲𝗾𝘂𝗲𝘀𝘁 💢', url="https://t.me/m_admins"),
                                                                          
                                       ]]
                ),
@@ -906,7 +906,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🌹 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton('Bᴏᴛɪɴғᴏ', callback_data='ss_alert'),
+        InlineKeyboardButton('ʙᴏᴛ ɪɴғᴏ', callback_data='ss_alert'),
         InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A'),
         InlineKeyboardButton('ʀᴜʟᴇs', callback_data='rules_alert')
     ])
