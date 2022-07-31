@@ -987,86 +987,84 @@ GHHMT = """<b>Thanks For 👨‍👧‍👧 {}.User... 💖
 
 ⚙ More Features Adding Soon</b> 😎"""
 
-GHHMM = """<b>Hey {}.. Welcome to bot info ❤️.
+GHHMM = """<b>Hey {}.. ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʙᴏᴛ ɪɴғᴏ ❤️.
 
-🔹 My name movies house 🏠 bot..
-🔹 I am Auto Filter bot.. 
+🔹 ᴍʏ ɴᴀᴍᴇ ᴍᴏᴠɪᴇs 🏠 ʙᴏᴛ..
+🔹 I ᴀᴍ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ.. 
 
-🔹 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖮𝗎𝗋 𝖡𝗈𝗍 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 
-      𝖠𝗌 𝖠𝖽𝗆𝗂𝗇,  
-🔹 𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾 free..
+🔹 ᴊ𝗎𝗌𝗍 𝖠𝖽𝖽 𝖮𝗎𝗋 𝖡𝗈𝗍 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 
+      ᴀ𝗌 𝖠𝖽𝗆𝗂𝗇,  
+🔹 ɪ𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾 ғʀᴇᴇ..
 
         ♋️ 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 ♋️
 
-🔹 AutoFilter, Manual Filter
-🔹 IMDb HD Posters
-🔹 IMDb Real Details
-🔹 Two Buttons Mode
-🔹 Force Subscribe
-🔹 File-Store 
-🔹 Extra Features: download songs,
-🔹 download you tube video, 
-🔹 URL Shortner, mute user. 
-🔹 unmute user, purge,
-🔹 Admin report, Purge, 
-🔹 photo convertor Telegraph link... 
+🔹 Aᴜᴛᴏғɪʟᴛᴇʀ, Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ
+🔹 ɪᴍᴅʙ ʜᴅ ᴘᴏsᴛᴇʀs
+🔹 ɪᴍᴅʙ Rᴇᴀʟ Dᴇᴛᴀɪʟs
+🔹 ᴛᴡᴏ Bᴜᴛᴛᴏɴs Mᴀᴅᴇ
+🔹 Fᴏʀᴄᴇ Sᴜʙsᴄʀɪʙᴇ
+🔹 Fɪʟᴇ-Sᴛᴏʀᴇ
+🔹 Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs: ᴅᴏᴡɴʟᴏᴀᴅ sᴏɴɢᴇs,
+🔹 ᴅᴏᴡɴʟᴏᴀᴅ ʏᴏᴜ ᴛᴜʙᴇ ᴠɪᴅᴇᴏ, 
+🔹 ᴜʀʟ Sʜᴏʀᴛɴᴇʀ, ᴍᴜᴛᴇ ᴜsᴇʀ,
+🔹 ᴜɴᴍᴜᴛᴇ ʏsᴇʀ. Pᴜʀɢᴇ,
+🔹 ᴀᴅᴍɪɴ ʀᴇᴘᴏʀᴛ. 
+🔹 ᴘʜᴏᴛᴏ ᴄᴏɴᴠᴇʀᴛᴏʀ ᴛᴇʟᴇɢʀᴀғᴇ ʟɪɴᴋ...
 
-🔹 Xtra check spelling. Buttons..
-🔹 Check Movie release date 📅. 
-🔹 Ott Release Date and More..
+🔹 Xᴛʀᴀ Cʜᴇᴄᴋ sᴘᴇʟʟɪɴɢ. Bᴜᴛᴛᴏɴs..
+🔹 ᴄʜᴇᴄᴋ ᴍᴏᴠɪᴇ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ 📅. 
+🔹 ᴏᴛᴛ ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ ᴀɴᴅ ᴍᴏʀᴇ..
 
-⚙ More Features Adding Soon</b> 😎"""
+⚙ ᴍᴏʀᴇ Fᴇᴀᴛᴜʀᴇs ᴀᴅᴅɪɴɢ sᴏᴏɴ...</b> 😎"""
 
 GROUP_Rules = """<b>
-     🔹 GROUP RULES 🔹
+     🔹 𝗚𝗥𝗢𝗨𝗣 𝗥𝗨𝗟𝗘𝗦 🔹
 
-🔹 Search With Correct Spelling..
-🔹 Try to Search movie With  Year If The bot is Not Sending You Accurate Result..
+🔹 sᴇᴀʀᴄʜ ᴡɪᴛʜ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ..
+🔹 ᴛʀʏ ᴛᴏ sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ᴡɪᴛʜ ʏᴇᴀʀ ɪғ ᴛʜᴇ ʙᴏᴛɪs ɴᴏᴛ sᴇɴᴅɪɴɢ ʏᴏᴜ ᴀᴄᴄᴜʀᴀᴛᴇ ʀᴇsᴜʟᴛ...
 
-🔹 Search Movies  in The Given From Exl:    
-🔹 (1) Avengers ✅
-🔹 (2) Avengers Hindi ✅
-🔹 (3) Avengers Movie ❌
-🔹 (4) Avengers Hindi Dubbed..❌
+🔹 𝘀𝗲𝗮𝗿𝗰𝗵 𝗺𝗼𝘃𝗶𝗲 𝗶𝗻 𝗧𝗵𝗲 𝗚𝗶𝘃𝗲𝗻 𝗙𝗿𝗼𝗺 𝗘𝘅𝗹:   
+🔹 (1) ᴀᴠᴇɴɢᴇʀs ✅
+🔹 (2) ᴀᴠᴇɴɢᴇʀs ʜɪɴᴅɪ ✅
+🔹 (3) ᴀᴠᴇɴɢᴇʀs ᴍᴏᴠɪᴇ ❌
+🔹 (4) ᴀᴠᴇɴɢᴇʀs ʜɪɴᴅɪ ᴅᴜʙʙᴇᴅ..❌
 
-🔹 Search Web Series in The Given From Exl:
-🔹 (1) Vikings S01 ✅
-🔹 (2) Vikings S01E01 ✅
-🔹 (3) Vikings S01E10 ✅
-🔹 (4) Vikings S01 Hindi ✅
-🔹 (5) Vikings S01 Hindi dubb. ❌
-🔹 (6) Vikings Season 1 ❌
-🔹 (7) Vikings Season 1 Episode 1 ❌
-🔹 (8) Vikings Web Series ❌
+🔹 𝘀𝗲𝗮𝗿𝗰𝗵 𝘄𝗲𝗯 𝘀𝗲𝗿𝗶𝗲𝘀 𝗶𝗻 𝗧𝗵𝗲 𝗚𝗶𝘃𝗲𝗻 𝗙𝗿𝗼𝗺 𝗘𝘅𝗹:
+🔹 (1) ᴠɪᴋɪɴɢs S01 ✅
+🔹 (2) ᴠɪᴋɪɴɢs S01E01 ✅
+🔹 (3) ᴠɪᴋɪɴɢs S01E10 ✅
+🔹 (4) ᴠɪᴋɪɴɢs S01 ʜɪɴᴅɪ ✅
+🔹 (5) ᴠɪᴋɪɴɢs S01 ʜɪɴᴅɪ ᴅᴜʙʙ. ❌
+🔹 (6) ᴠɪᴋɪɴɢs sᴇᴀsᴏɴ 1 ❌
+🔹 (7) ᴠɪᴋɪɴɢs sᴇᴀsᴏɴ 1 ᴇᴘɪsᴏᴅᴇ 1 ❌
+🔹 (8) ᴠɪᴋɪɴɢs ᴡᴇʙ sᴇʀɪᴇs ❌
 
-🔹 Don't Do Any Self Promotion.
+🔹 Dᴏɴ'ᴛ Dᴏ ᴀɴʏ sᴇʟғ ᴘʀᴏᴍᴏᴛɪᴏɴ.
 
-🔹 Don't Send Any Kind Of Photo, Video Documents URL ETC.
+🔹 ᴅᴏɴ'ᴛ sᴇɴᴅ ᴀɴʏ ᴋɪɴᴅ ᴏғ ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ ᴅᴏᴄᴜᴍᴇɴᴛs 𝗨𝗥𝗟 𝗘𝗧𝗖.
 
-🔹 Sending The Above  Mantained, Things Will Lead To Permanent Ban.
+🔹 sᴇɴᴅɪɴɢ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴍᴀɴᴛᴀɪɴᴇᴅ, ᴛʜɪɴɢs ᴡɪʟʟ ʟᴇᴀᴅ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ.
 
-🔹 Don't Request Any Things Other Than Movie Series Animes.
+🔹 ᴅᴏɴ'ᴛ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ᴛʜɪɴɢs ᴏᴛʜᴇʀ ᴛʜᴀɴ ᴍᴏᴠɪᴇ sᴇʀɪᴇs ᴀɴɪᴍᴇs..
 
-🔹 Don't Disturb Anyone On The Group 
+🔹 ᴅᴏɴ'ᴛ ᴅɪsᴛᴜʀʙ ᴀɴʏᴏɴᴇ ᴏɴ ᴛʜᴇ ɢʀᴏᴜᴘ..
 
-🔹 Give and Take Respect</b>"""
+🔹 ɢɪᴠᴇ ᴀɴᴅ ᴛᴀᴋᴇ ʀᴇsᴘᴇᴄᴛ</b>"""
 
 
 MY_DETALS = """<b>Hey {}. Welcome ❤️
 
-🔹 My Name :  Sahid malik
-🔹 Username: @sahid_malik 
-🔹 Pmt. Dm Link: <a href=https://t.me/sahid_malik>CLICK HERE</a>
-🔹 Place : Saharanpur | UP | India
-🔹 Know Language: Hindi, English,
-      Malyalam
-🔹 Religion Cast : Muslim 
-🔹 Dob : 00 | 09 | 2005
-🔹 Age: Just calculate 
-🔹 Level:  Frist Year BTEC ECE
-🔹 Fav Colour: Red, Green, Black 
-🔹 Nb: Easy to Cry Easy To Laugh, 
-      Hard To Leave Hard To Forgot..</b>"""
+🔹 ᴍʏ ɴᴀᴍᴇ : sᴀʜɪᴅ ᴍᴀʟɪᴋ
+🔹 ᴜsᴇʀɴᴀᴍᴇ: @sᴀʜɪᴅ_ᴍᴀʟɪᴋ
+🔹 ᴘᴍᴛ. ᴅᴍ ʟɪɴᴋ: <a href=https://t.me/sahid_malik>ᴄʟɪᴄ ʜᴇʀᴇ</a>
+🔹 ᴘʟᴀᴄᴇ: sᴀʜᴀʀᴀɴᴘᴜʀ | ᴜᴘ | ɪɴᴅɪᴀ
+🔹 ᴋɴᴏᴡ ʟᴀɴɢᴜᴀɢᴇ: ʜɪɴᴅɪ, ᴇɴɢʟɪsʜ, ᴍᴀʟʏᴀʟᴀᴍ
+🔹 ʀᴇʟɪɢɪᴏɴ ᴄᴀsᴛ: ᴍᴜsʟɪᴍ
+🔹 ᴅᴏʙ: 00 | 09 | 2005
+🔹 Aɢᴇ: ᴊᴜsᴛ ᴄᴀʟᴄᴜʟᴀᴛᴇ
+🔹 ʟᴇᴠᴇʟ: ғʀɪsᴛ ʏᴇᴀʀ ʙᴛᴇᴄ ᴇᴄᴇ
+🔹 ғᴀᴠ ᴄᴏʟᴏᴜʀ: ʀᴇᴅ, ɢʀᴇᴇɴ, ʙʟᴜᴇ
+🔹 ɴʙ: ᴇᴀsʏ ᴛᴏ ᴄʀʏ ᴇᴀsʏ ᴛᴏ ʟᴀᴜɢʜ, ʜᴀʀᴅ ᴛᴏ ʟᴇᴀᴠᴇ ʜᴀʀᴅ ᴛᴏ ғᴏʀɢᴏᴛ..</b>"""
 
 
 
