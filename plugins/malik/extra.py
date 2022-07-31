@@ -847,13 +847,13 @@ def instatus(client, message):
 
 SS_ALERT = """
 
-🔹My Name movies house 🏠 bot
-🔹I Am Auto Filter Bot.😎
-🔹Just Add Me To Your 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇
-🔹𝖨𝗍 𝖶𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 All 𝖬𝗈𝗏𝗂𝖾𝗌 Your Group.😎
+🔹ᴍʏ ɴᴀᴍᴇ ᴍᴏᴠɪᴇs ʜᴏᴜsᴇ  🏠 Bᴏᴛ
+🔹I ᴀᴍ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ.😎
+🔹Jᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀs ᴀᴅᴍɪɴ
+🔹ɪᴛ ᴡɪʟ ᴘʀᴏᴠɪᴅᴇ ᴀʟʟ ᴍᴏᴠɪᴇs ʏᴏᴜʀ  ɢʀᴏᴜᴘ.😎
 
-🔹More Details Type 👉 /BOTINFO 
-🔹Owner Details Tipe 👉 /OWNER"""
+🔹ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴛʏᴘᴇ  👉 /ʙᴏᴛɪɴғᴏ 
+🔹Oᴠɴᴇʀ ᴅᴇᴛᴀɪʟs ᴛɪᴘᴇ  👉  /ᴏᴡɴᴇʀ"""
 
 RULES_ALERT = """
 🔹Movie Search Exl. 
