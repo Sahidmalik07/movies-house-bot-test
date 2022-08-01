@@ -123,7 +123,7 @@ def encode_file_id(s: bytes) -> str:
     r = b""
     n = 0
 
-    for i in s + bytes([22]) + bytes([4]):
+    for i in s + bytes([44]) + bytes([8]):
         if i == 0:
             n += 1
         else:
