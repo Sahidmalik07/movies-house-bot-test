@@ -72,12 +72,12 @@ async def get_search_results(query, file_type=None, max_results=10, offset=0, fi
     query = query.strip()
     #if filter:
         #better ?
-        #query = query.replace(' ', r'(\s|\.|\+|\-|_)')
+        #query = query.replace(' ', r'(\s|[\.|\+|\-|_])')
         #raw_pattern = r'(\s|_|\-|\.|\+)' + query + r'(\s|_|\-|\.|\+)'
     if not query:
         raw_pattern = '.'
     elif ' ' not in query:
-        raw_pattern = r'(\b|[\.\+\-_])' + query + r'(\b|[\.\+\-_])'
+        raw_pattern = r'(\b|\.\+\-_)' + query + r'(\b|[\.\+\-_])'
     else:
         raw_pattern = query.replace(' ', r'.*[\s\.\+\-_]')
     
@@ -123,7 +123,7 @@ def encode_file_id(s: bytes) -> str:
     r = b""
     n = 0
 
-    for i in s + bytes([44]) + bytes([8]):
+    for i in s + bytes([22]) + bytes([4]):
         if i == 0:
             n += 1
         else:
