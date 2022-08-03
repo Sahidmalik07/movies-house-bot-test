@@ -50,4 +50,4 @@ ffmpeg
 Pillow
 ujson
 Heroku3
-search
+pyrogram
